@@ -13,6 +13,12 @@ to identify this shop with. All purchases made until the
 UNTRACKSHOP or TRACKSHOP [label] commands are used again (the
 latter with a different label).
 
+Data for a given label can be reset with the 
+RESETTRACKEDSHOP [label] command.
+
+Stored data can be retrieved to specified variables with the
+GETTRACKEDDATA command.
+
 Plugin commands:
 TRACKSHOP [label]
 Sets the plugin to track all items bought and sold under the label supplied.
